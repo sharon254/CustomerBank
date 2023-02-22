@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: customer-bank-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/banking_core_service
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 8092
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+info:
+  app:
+    name: ${spring.application.name}
+  - id: core-banking-service
+    uri: lb://core-banking-service
+    predicates:
+      - Path=/banking-core/**
+    filters:
+      - StripPrefix=1
