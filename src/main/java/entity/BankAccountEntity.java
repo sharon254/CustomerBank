@@ -1,16 +1,10 @@
 package entity;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
-public class BankAccount {
-}
 
-
-        import com.javatodev.finance.model.AccountStatus;
-        import com.javatodev.finance.model.AccountType;
-        import lombok.Getter;
-        import lombok.Setter;
-
-        import javax.persistence.*;
-        import java.math.BigDecimal;
+import java.math.BigDecimal;
 
 @Getter
 @Setter

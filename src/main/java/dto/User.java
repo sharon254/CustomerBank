@@ -1,7 +1,5 @@
 package dto;
 
-import entity.BankAccount;
-
 import java.util.List;
 
 public class User {
