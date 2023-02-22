@@ -2,7 +2,7 @@ package entity;
 
 public class BankAccount {
 }
-package com.javatodev.finance.model.entity;
+
 
         import com.javatodev.finance.model.AccountStatus;
         import com.javatodev.finance.model.AccountType;

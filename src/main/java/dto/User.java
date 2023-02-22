@@ -11,4 +11,7 @@ public class User {
     private String email;
     private String identificationNumber;
     private List<BankAccount> bankAccounts;
+
+    public void setBankAccounts(List<dto.BankAccount> convertToDtoList) {
+    }
 }

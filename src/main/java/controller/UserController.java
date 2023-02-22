@@ -1,4 +1,5 @@
 package controller;
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
 import org.springframework.data.domain.Pageable;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,6 @@ public class UserController {
 
     @GetMapping
     public ResponseEntity readUser(Pageable pageable) {
-        return ResponseEntity.ok(userService.readUsers(pageable));
+        return ResponseEntity.ok(userService.readUsers((SpringDataWebProperties.Pageable) pageable));
     }
 }

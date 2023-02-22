@@ -1,10 +1,5 @@
 package entity;
 
-public class AccountStatus {
+public  enum AccountStatus {PENDING,ACTIVE,DORMANT,BLOCKED
 }
-//
-package com.javatodev.finance.model;
 
-public enum AccountStatus {
-    PENDING,ACTIVE,DORMANT,BLOCKED
-}
