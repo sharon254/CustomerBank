@@ -1,7 +1,8 @@
 package dto;
-
-import entity.UtilityAccountEntity;
+import entity.UtilityAccount;
 import org.springframework.beans.BeanUtils;
+
+
 
 public class UtilityAccountMapper extends BaseMapper<UtilityAccountEntity, UtilityAccount>{
     @Override

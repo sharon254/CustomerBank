@@ -5,7 +5,6 @@ import dto.BankAccountMapper;
 import dto.UtilityAccount;
 import dto.UtilityAccountMapper;
 import entity.BankAccountEntity;
-import entity.UtilityAccountEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import repository.BankAccountRepository;

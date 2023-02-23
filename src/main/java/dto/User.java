@@ -12,4 +12,7 @@ public class User {
 
     public void setBankAccounts(List<dto.BankAccount> convertToDtoList) {
     }
+
+    public void getBankAccounts() {
+    }
 }

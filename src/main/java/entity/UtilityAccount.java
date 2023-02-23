@@ -1,21 +1,14 @@
 package entity;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
-public class UtilityAccount {
-}
-//
-package com.javatodev.finance.model.entity;
-
-        import lombok.Getter;
-        import lombok.Setter;
-
-        import javax.persistence.*;
 
 @Getter
 @Setter
 @Entity
 @Table(name = "banking_core_utility_account")
-public class UtilityAccountEntity {
-
+public class UtilityAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,5 +16,4 @@ public class UtilityAccountEntity {
     private String number;
 
     private String providerName;
-
 }

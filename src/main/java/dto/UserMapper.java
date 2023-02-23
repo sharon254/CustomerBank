@@ -1,8 +1,6 @@
 package dto;
 
 import entity.UserEntity;
-
-
 import org.springframework.beans.BeanUtils;
 
 public class UserMapper extends BaseMapper<UserEntity, User> {

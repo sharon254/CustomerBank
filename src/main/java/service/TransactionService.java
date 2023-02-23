@@ -2,6 +2,7 @@ package service;
 
 import dto.*;
 import entity.BankAccountEntity;
+import entity.TransactionEntity;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
